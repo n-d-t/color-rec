@@ -1,0 +1,78 @@
+
+('twitter.com', 'https://twitter.com/dmoz', 9)
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/PostDB/clean-crawler.py", line 130, in <module>
+    c.crawl("https://en.wikipedia.org/wiki/C._Sylendra_Babu");
+  File "/home/ubuntu/workspace/PostDB/clean-crawler.py", line 113, in crawl
+    page = self.getPage(front);
+  File "/home/ubuntu/workspace/PostDB/clean-crawler.py", line 72, in getPage
+    row["color_data"]=self.PhanOut(link);
+  File "/home/ubuntu/workspace/PostDB/clean-crawler.py", line 125, in PhanOut
+    sets = self.color.collect(link,"colorOnly")
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 88, in collect
+    result = self.dfs(root, self.gen_id())
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 76, in dfs
+    self.dfs(child, child_id)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 64, in dfs
+    children = self.find_child_elements(elem)
+  File "/home/ubuntu/workspace/PostDB/phan.py", line 18, in find_child_elements
+    return elem.find_elements_by_xpath("./*")
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webelement.py", line 283, in find_elements_by_xpath
+    return self.find_elements(by=By.XPATH, value=xpath)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webelement.py", line 528, in find_elements
+    {"using": by, "value": value})['value']
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webelement.py", line 494, in _execute
+    return self._parent.execute(command, params)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Error Message => 'undefined'
+ caused by Request => {"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"115","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:53809","User-Agent":"Python-urllib/2.7"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"sessionId\": \"d16f5000-a144-11e6-aabe-11b8e98714c8\", \"id\": \":wdc:1478122766143\", \"value\": \"./*\"}","url":"/elements","urlParsed":{"anchor":"","query":"","file":"elements","directory":"/","path":"/elements","relative":"/elements","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/elements","queryKey":{},"chunks":["elements"]},"urlOriginal":"/session/d16f5000-a144-11e6-aabe-11b8e98714c8/element/%3Awdc%3A1478122766143/elements"}
+Screenshot: available via screen
+
+
+
+Process exited with code: 1
