@@ -1,1 +1,1 @@
-# Colorec
+# color-rec
